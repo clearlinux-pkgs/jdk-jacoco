@@ -1,0 +1,8 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+jdk-build-helper-maven-plugin
+jdk-buildnumber-maven-plugin
+jdk-enforcer
+jdk-gmavenplus
+jdk-maven-antrun-plugin
+jdk-maven-javadoc-plugin
