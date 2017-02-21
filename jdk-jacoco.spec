@@ -1,6 +1,6 @@
 Name     : jdk-jacoco
 Version  : 0.7.7
-Release  : 1
+Release  : 2
 URL      : https://github.com/jacoco/jacoco/archive/v0.7.7.tar.gz
 Source0  : https://github.com/jacoco/jacoco/archive/v0.7.7.tar.gz
 Summary  : No detailed summary available
