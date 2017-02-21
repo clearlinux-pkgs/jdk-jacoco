@@ -1,0 +1,8 @@
+python3 /usr/share/java-utils/pom_editor.py pom_disable_module ../org.jacoco.examples org.jacoco.build
+python3 /usr/share/java-utils/pom_editor.py pom_disable_module ../org.jacoco.doc org.jacoco.build
+python3 /usr/share/java-utils/pom_editor.py pom_disable_module ../org.jacoco.tests org.jacoco.build
+python3 /usr/share/java-utils/pom_editor.py pom_disable_module ../jacoco org.jacoco.build
+python3 /usr/share/java-utils/mvn_package.py ":jacoco-maven-plugin:{jar,pom}:{}:" maven-plugin
+python3 /usr/share/java-utils/mvn_package.py ":{org.}*:{jar,pom}:runtime:"
+
+sed -i -e "s|nb-configuration.xml|nb-configuration.xml,build.xml, pom.xml|g" org.jacoco.build/pom.xml
