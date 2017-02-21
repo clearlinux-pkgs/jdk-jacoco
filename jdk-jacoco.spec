@@ -32,7 +32,6 @@ BuildRequires : jdk-doxia
 BuildRequires : jdk-doxia-sitetools
 BuildRequires : jdk-enforcer
 BuildRequires : jdk-file-management
-BuildRequires : jdk-gmavenplus
 BuildRequires : jdk-guava
 BuildRequires : jdk-guice
 BuildRequires : jdk-httpcomponents-client
